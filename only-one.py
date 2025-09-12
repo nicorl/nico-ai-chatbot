@@ -2,8 +2,6 @@ import os
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import Chroma
-vectorstore = Chroma(persist_directory="chromadb", embedding_function=embeddings)
-
 from langchain.docstore.document import Document
 
 # Carpeta con documentos
@@ -22,9 +20,14 @@ chunks = text_splitter.split_documents(docs)
 # Crear embeddings
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
-# Crear FAISS vectorstore
-vectorstore = Chroma.from_texts(chunks, embedding=embeddings, persist_directory="chromadb")
+# Crear Chroma vectorstore con los chunks
+vectorstore = Chroma.from_documents(
+    documents=chunks,
+    embedding=embeddings,
+    persist_directory="chromadb"
+)
+
+# Persistir índice en disco
 vectorstore.persist()
 
-# Guardar índice para futuras ejecuciones
-vectorstore.save_local("chromadb")
+print("Vectorstore creado y guardado correctamente.")
