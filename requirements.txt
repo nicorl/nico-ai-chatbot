@@ -1,9 +1,9 @@
 streamlit
-langchain
-faiss-cpu==1.7.4.post2
-sentence-transformers
-transformers
 torch
+faiss-cpu==1.7.4.post2
+transformers
 huggingface_hub
-langchain-community
+sentence-transformers
 chromadb
+langchain
+langchain-community
