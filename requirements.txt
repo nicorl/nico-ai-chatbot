@@ -1,9 +1,8 @@
-streamlit
-torch
-faiss-cpu==1.7.4.post2
-transformers
-huggingface_hub
-sentence-transformers
-chromadb
-langchain
-langchain-community
+streamlit>=1.30.0
+langchain>=0.1.0
+langchain-community>=0.0.30
+sentence-transformers>=2.2.2
+transformers>=4.38.0
+torch>=2.0.0
+huggingface_hub>=0.20.0
+chromadb>=0.4.22
