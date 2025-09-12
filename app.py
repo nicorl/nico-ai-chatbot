@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from langchain.vectorstores import FAISS
+from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 from langchain.llms import HuggingFacePipeline
@@ -12,7 +12,7 @@ st.title("🤖 Chatbot local con Hugging Face y FAISS")
 
 # --- Cargar embeddings y FAISS ---
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-vectorstore = FAISS.load_local("faiss_index", embeddings)
+vectorstore = Chroma(persist_directory="chromadb", embedding_function=embeddings)
 
 # --- Modelo local Hugging Face ---
 model_id = "tiiuae/falcon-7b-instruct"  # modelo gratuito, descarga local
