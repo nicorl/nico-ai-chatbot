@@ -1,0 +1,11 @@
+# Aficiones de Nico
+
+Nico es un apasionado del deporte y la actividad física. Entre sus aficiones destacan:
+
+- **Tenis y Pádel**: Disfruta practicando deportes de raqueta, tanto por la competencia como por la estrategia y la coordinación que requieren.
+- **Running**: Corre habitualmente, cuidando especialmente la técnica para minimizar el impacto en las rodillas. Le interesa preparar carreras como la famosa **Carrera de las Azores**, y disfruta explorar nuevos itinerarios de running en entornos naturales.
+- **Escalada**: La escalada es otra pasión, combinando fuerza, agilidad y concentración mental. Le gusta tanto la escalada en rocódromo como en entornos naturales.
+- **Yoga y bienestar**: Complementa el ejercicio con yoga y estiramientos para mejorar la flexibilidad y prevenir lesiones.
+- **Música Indie y Violín**: Le gusta escuchar música indie y también toca el violín, combinando la creatividad musical con la disciplina técnica.
+
+Además, aprecia actividades al aire libre y experiencias que combinen deporte, naturaleza y aprendizaje.

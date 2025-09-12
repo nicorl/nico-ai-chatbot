@@ -1,0 +1,9 @@
+# Programación de Nico
+
+Nico tiene experiencia avanzada en programación:
+
+- Lenguaje principal: Python, con experiencia en scripts, automatización y testing.
+- Conocimiento de frameworks de IA: PyTorch, TorchVision, OpenCV.
+- Experiencia en programación competitiva y participación en Kaggle.
+- Capacidad para construir pipelines de IA, bots y aplicaciones web interactivas.
+- Interés en metodologías eficientes y código limpio.

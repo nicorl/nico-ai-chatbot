@@ -1,0 +1,8 @@
+# Idiomas de Nico
+
+Nico tiene un perfil multilingüe y disfruta del aprendizaje y uso de idiomas en contextos profesionales y personales:
+
+- **Inglés**: Nivel C1, capaz de comunicar ideas complejas, redactar textos técnicos y profesionales, y participar en presentaciones y negociaciones.
+- **Alemán**: Nivel B2, con habilidades sólidas en comprensión y expresión escrita y oral.
+- **Experiencia práctica**: Utiliza ambos idiomas para documentación, programación, interacción profesional y exploración de recursos técnicos.
+- **Aplicaciones en tecnología**: Es capaz de leer documentación técnica, papers de IA, manuales de APIs y comunicarse con equipos internacionales.

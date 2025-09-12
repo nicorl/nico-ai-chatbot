@@ -1,0 +1,12 @@
+# Intereses tecnológicos de Nico
+
+Nico se centra en el ámbito de la tecnología y la inteligencia artificial, con especial atención a la visión por computador y la programación:
+
+- **Visión artificial y OpenCV**: Trabaja con procesamiento de imágenes, detección de objetos, y análisis de video en tiempo real.
+- **Inteligencia artificial**: Interesado en modelos de aprendizaje profundo, especialmente PyTorch y TorchVision, con aplicaciones prácticas en detección y clasificación de imágenes y deepfakes.
+- **Modelos de lenguaje y RAG**: Explora LLMs, Retrieval-Augmented Generation, agentes y pipelines de IA.
+- **Optimización de proyectos de IA**: Busca estandarizar fases de proyectos, mejorar documentación, control de calidad y la experiencia del usuario.
+- **Programación avanzada en Python**: Incluyendo scripts para automatización, testing y deployment de modelos.
+- **Aplicaciones prácticas**: Implementa soluciones en aplicaciones reales, como chatbots, análisis de video y sistemas de detección en tiempo real.
+
+Nico combina la teoría con la práctica, buscando siempre soluciones eficientes y orientadas a resultados.

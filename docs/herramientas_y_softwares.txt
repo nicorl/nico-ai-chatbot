@@ -1,0 +1,9 @@
+# Herramientas y Software de Nico
+
+Nico usa y domina diversas herramientas y entornos:
+
+- **OpenCV** y librerías de visión artificial.
+- **Streamlit y Gradio** para apps web interactivas.
+- **FAISS, ChromaDB, Pinecone** para vectorstores y búsqueda semántica.
+- **Hugging Face y APIs de OpenAI** para despliegue de modelos.
+- **Git, Python, Jupyter** para desarrollo y documentación de proyectos.

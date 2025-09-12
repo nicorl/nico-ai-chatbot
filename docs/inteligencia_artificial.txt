@@ -1,0 +1,9 @@
+# Inteligencia Artificial de Nico
+
+Nico trabaja y experimenta en inteligencia artificial aplicada:
+
+- Modelos de visión artificial para detección y clasificación de imágenes.
+- Detección de deepfakes, incluyendo modelos ligeros y de alto rendimiento.
+- Modelos de lenguaje y RAG para chatbots y agentes.
+- Integración de modelos en aplicaciones web y sistemas productivos.
+- Exploración de LLMs, pipelines de IA y frameworks agentic.
