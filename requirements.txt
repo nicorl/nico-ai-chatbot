@@ -8,3 +8,4 @@ torch
 huggingface_hub
 langchain-huggingface
 langchain-chroma
+accelerate
