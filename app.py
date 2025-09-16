@@ -2,13 +2,15 @@ import os
 import streamlit as st
 import sys, pysqlite3
 sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
-from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 from langchain_community.llms import HuggingFacePipeline 
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from huggingface_hub import login
+login(os.environ["HUGGINGFACEHUB_API_TOKEN"])
 
 
 # --- Configuración página ---
