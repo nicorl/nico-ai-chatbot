@@ -2,8 +2,8 @@ streamlit
 langchain
 langchain-community
 chromadb
-pysqlite3-binary 
 sentence-transformers
 transformers
 torch
 huggingface_hub
+pysqlite3-binary>=0.5.0
